@@ -32,10 +32,10 @@ void ICACHE_FLASH_ATTR waitap(void *args)
 }
 void ICACHE_FLASH_ATTR
 user_init(void) {
-    //uart_init(9600, 9600);
-    printf("engine start \n");
-    led_init();
-    led_red();
+    uart_init(115200, 115200);
+    //printf("engine start \n");
+    //led_init();
+    //led_red();
 	gpio_14_init();
 	if (get_gpio14() == 0)
 	{
