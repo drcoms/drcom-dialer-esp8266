@@ -9,7 +9,8 @@ drcom-dialer-esp8266
 
 ### 使用方法
 最简：买一块 esp8266 模块板，至少要带 GPIO14 的。  
-`app/gen_misc.sh` 之后按照 8266 的刷机方法刷进去。
+`app/gen_misc.sh` 之后按照 8266 的刷机方法刷进去。  
+可以看看图片说明 <http://blog.lyj.me/hei-ke-ji-esp8266-drcom-client/>
 
 1. GPIO14接地则进入配置，这时候会有一个`DrCOMDialer`热点, 如果只收到一个`ESP_xxxx`热点，则重启一下。
 2. 连接热点，打开`http://192.168.4.1`，按说明正确配置，提交以后会自动重启。
